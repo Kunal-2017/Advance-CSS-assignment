@@ -1,0 +1,24 @@
+
+
+/* Defining var()function to change background color */
+:root{
+    --primaryColor:#00b7ff;
+    --secondaryColor:#6c757d;
+    --text-color:#ffffff;
+}
+div{
+    border: 1px solid #000000;
+    padding: 20px;
+}
+#primaryBtn{
+    background-color: var(--primaryColor);
+    color: var(--text-color);
+    border-color:var(--primaryColor) ;
+    
+}
+#secondaryBtn{
+    background-color: var(--secondaryColor);
+    color: var(--text-color);
+    border-color: var(--secondaryColor);
+    
+}

@@ -1,0 +1,31 @@
+
+.loader{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 200px auto;
+    animation-name: border;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+   
+}
+@keyframes border{
+    0% {
+        border-top: 3px solid #0925ae;
+    }
+    25% {
+        border-top: 3px solid #0925ae;
+    }
+    50% {
+        border-right: 3px solid #0925ae;
+    }
+    75% {
+        border-bottom: 3px solid #0925ae;
+    }
+    100% {
+        border-left: 3px solid #0925ae;
+    }
+    
+
+}
